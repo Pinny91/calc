@@ -1,0 +1,38 @@
+body {
+	text-align: center;
+}
+#reken-block {
+	max-width: 250px;
+	background-color: #B3D295;
+	padding: 25px;
+	border-radius: 10px;
+	margin-top: 15%;
+}
+#title {
+	text-transform: uppercase;
+	font-weight: 400;
+	letter-spacing: 0.250em;
+}
+#uitkomst {
+	border-radius: 5px;
+	background-color: #C5E695;
+}
+
+.knop {
+	border-radius: 5px;
+	border-top: solid 2px #77B124;
+	border-right: solid 4px #77B124;
+	cursor: pointer;
+}
+.knop:hover {
+	border-top: solid 1px #77B124;
+	border-right: solid 2px #77B124;
+}
+
+.cijfer {
+	background: #A8D26C;
+}
+
+.bewerking {
+	background: #96D63A;
+}
