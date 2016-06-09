@@ -150,6 +150,10 @@ function uitrekenen() {
 			sum += memNum[i+1];			
 		}
 	}
+	memNum = [];
+	memTeken = [];
+	memId = 0;
+	val = sum;
 	uitkomst.html(sum);
 	
 }
